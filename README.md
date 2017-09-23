@@ -1,5 +1,5 @@
 # MessagesSwipeBugs
-Bugs in dismissing Messages Apps via swiping
+Bugs in dismissing Messages Apps via swiping in iOS 11.
 
 run in sim or on device.
 
@@ -26,4 +26,4 @@ swiping between Message apps does not dismiss the app.  clicking between Message
 
 # Bonus bug
 
-when you swipe between apps, the frame of the embedded ViewController is shifted up *by the amount of gutter on an iPhone X*.  So on an iPhone X the view will be the correct size. On any other device running iOS 11 the safe area bounds change.
+when you swipe between apps, the frame of the embedded ViewController is shifted up *by the amount of gutter on an iPhone X*.  So on an iPhone X the view will be the correct size. On any other device running iOS 11 the safe area bounds change and there is a gutter at the bottom.
