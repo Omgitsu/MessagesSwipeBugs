@@ -4,19 +4,23 @@ Bugs in dismissing Messages Apps via swiping
 run in sim or on device.
 
 when the messages app becomes active you should see this in the console
-```MessagesViewController:viewDidLoad()
+```
+MessagesViewController:viewDidLoad()
 MessagesViewController:willBecomeActive(with:)
 MessagesViewController:viewWillAppear
 ViewController:viewWillAppear
-ViewController:viewDidAppear```
+ViewController:viewDidAppear
+```
 
 when it is dismissed you should see this in the console
-```MessagesViewController:viewWillDisappear
+```
+MessagesViewController:viewWillDisappear
 ViewController:viewWillDisappear
 ViewController:viewDidDisappear
 MessagesViewController:viewWillAppear
 ViewController:viewWillAppear
-ViewController:viewDidAppear```
+ViewController:viewDidAppear
+```
 
 swiping between Message apps does not dismiss the app.  clicking between Message apps will dismiss it.
 
